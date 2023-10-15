@@ -16,7 +16,7 @@ export default function Home() {
         </main>
         <div className={styles.partition}>
           <div className={styles.heading}>
-            <h1>A Creator's Paradise</h1>
+            <h1>`A Creator's Paradise`</h1>
             <p>where creativity meats success.</p>
           </div>
           <Form />
@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <section className={styles.section3}>
         <div className={styles.actionword}>
-          Don't miss out on ABC's incredible features and opportunities.
+          ` Don't miss out on ABC's incredible features and opportunities.`
         </div>
         <div className={styles.action}>
           <h1>Join us today and unlock your full potential as a creator</h1>
@@ -57,8 +57,8 @@ export default function Home() {
         <div className={styles.frame2}>
           <div className={styles.frame2div1}>Join the ABC community</div>
           <div className={styles.frame2div2}>
-            Become part of a vibrant and supportive community of a like-minded
-            creators by joining ABC's exclusive platform.
+            `Become part of a vibrant and supportive community of a like-minded
+            creators by joining ABC's exclusive platform.`
           </div>
           <div className={styles.frame2div2}>
             Collaborate, learn and connect with fellow creators who share your
