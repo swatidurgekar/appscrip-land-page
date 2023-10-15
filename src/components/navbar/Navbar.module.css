@@ -1,0 +1,38 @@
+.navbar {
+  height: 3.5em;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  padding: 1em 4em 0em;
+}
+.navitems {
+  width: 60em;
+  display: flex;
+  justify-content: space-between;
+}
+.navtabs {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.navtabs div {
+  text-wrap: nowrap;
+
+  padding: 1.5em 1.5em 0em;
+}
+.loginsignup {
+  width: 10em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 2em 0em 0em;
+}

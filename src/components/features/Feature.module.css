@@ -1,0 +1,87 @@
+.firstfeature {
+  display: flex;
+  border: 1px solid;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.firstfeature .firstfeature1 {
+  height: 26em;
+  width: 40em;
+  background: radial-gradient(#89759c -140%, #1c1423 70%);
+  border-radius: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 2em 3em;
+  margin: 1em;
+}
+.firstfeature .firstfeature1 .heading {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 1em;
+  color: #cac4d2;
+}
+.firstfeature .firstfeature1 .paragraph {
+  padding: 1em;
+  color: #ba94df;
+  text-align: center;
+}
+.firstfeature1 .image {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.firstfeature1 img {
+  background: #1c1423;
+  border-radius: 0.6em;
+  height: 6.5em;
+  margin: 0.5em;
+}
+.secondfeature {
+  display: flex;
+  border-radius: 0.8em;
+  padding: 2em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.secondfeature .secondfeature1 {
+  display: flex;
+  height: 20em;
+  margin: 1em;
+  padding: 1em;
+  width: 27em;
+  background: radial-gradient(#89759c -140%, #1c1423 70%);
+  border-radius: 1.2em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.secondfeature .secondfeature1 .heading {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 0.7em;
+  color: #cac4d2;
+  text-align: center;
+}
+.secondfeature .secondfeature1 .paragraph {
+  padding: 0.5em 1em 1em;
+  color: #ba94df;
+  text-align: center;
+}
+.secondfeature .secondfeature1 .image {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  height: 200px;
+  width: 30em;
+  overflow: hidden;
+}
+.img {
+  max-width: 100%;
+}
