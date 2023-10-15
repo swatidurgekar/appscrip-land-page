@@ -1,5 +1,5 @@
 import styles from "./Feature.module.css";
-import Images from "./image";
+import Image from "next/image";
 
 const Features = () => {
   return (
@@ -30,17 +30,22 @@ const Features = () => {
             creative ideas into profitable ventures.
           </div>
           <div className={styles.image}>
-            <img src="credit.svg" alt="credit"></img>
-            <img src="/assets/photo1.svg"></img>
-            <img src="/assets/photo2.svg"></img>
-            <img src="/assets/photo3.svg"></img>
+            <Image width={30} height={20} src="credit.svg" alt="credit"></Image>
+            <Image width={30} height={20} src="/assets/photo1.svg"></Image>
+            <Image width={30} height={20} src="/assets/photo2.svg"></Image>
+            <Image width={30} height={20} src="/assets/photo3.svg"></Image>
           </div>
         </div>
       </div>
       <div className={styles.secondfeature}>
         <div className={styles.secondfeature1}>
           <div className={styles.image}>
-            <img src="/assets/automation.svg" alt="automation" />
+            <Image
+              width={90}
+              height={90}
+              src="/assets/automation.svg"
+              alt="automation"
+            />
           </div>
           <div className={styles.heading}>
             Save Time with Automation and Efficiency
@@ -53,7 +58,12 @@ const Features = () => {
         </div>
         <div className={styles.secondfeature1}>
           <div className={styles.image}>
-            <img src="/assets/community.svg" alt="community" />
+            <Image
+              width={90}
+              height={90}
+              src="/assets/community.svg"
+              alt="community"
+            />
           </div>
           <div className={styles.heading}>Join a Supportive Community</div>
           <div className={styles.paragraph}>
@@ -64,7 +74,7 @@ const Features = () => {
         </div>
         <div className={styles.secondfeature1}>
           <div className={styles.image}>
-            <img src="/assets/prize.svg" alt="prize" />
+            <Image width={90} height={90} src="/assets/prize.svg" alt="prize" />
           </div>
           <div className={styles.heading}>
             Unlock Exclusive Opportunities and Prizes

@@ -8,7 +8,13 @@ const Image = () => {
       {images.map((image) => {
         return (
           <>
-            <img className={styles.img} src={`/${image}`} alt="first" />
+            <Image
+              width={90}
+              height={90}
+              className={styles.img}
+              src={`/${image}`}
+              alt="first"
+            />
             <img alt="rating" src="/rating.jpg" />
           </>
         );
