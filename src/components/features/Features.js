@@ -16,7 +16,7 @@ const Features = () => {
             NFT's, ABC helps you diversify your revenue streams and maximize
             your income.
           </div>
-          <img src="/mobile.svg" alt="mobile" />
+          <Image width={190} height={30} src="/mobile.svg" alt="mobile" />
         </div>
         <div className={styles.firstfeature1}>
           <div className={styles.heading}>

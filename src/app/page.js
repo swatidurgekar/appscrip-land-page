@@ -103,7 +103,12 @@ export default function Home() {
         <div>
           <div className={styles.footerheading}>Follow Us</div>
           <div>
-            <img src="/assets/icons.svg" alt="icons" />
+            <Image
+              width={130}
+              height={50}
+              src="/assets/icons.svg"
+              alt="icons"
+            />
           </div>
         </div>
       </section>

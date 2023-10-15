@@ -15,7 +15,7 @@ const Image = () => {
               src={`/${image}`}
               alt="first"
             />
-            <img alt="rating" src="/rating.jpg" />
+            <Image width={90} height={90} alt="rating" src="/rating.jpg" />
           </>
         );
       })}
